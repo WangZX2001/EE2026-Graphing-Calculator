@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov  9 02:29:45 2025
+# Process ID: 41892
+# Current directory: C:/Users/user/Downloads/Final/Workingversion_711
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11484 C:\Users\user\Downloads\Final\Workingversion_711\Workingversion_711.xpr
+# Log file: C:/Users/user/Downloads/Final/Workingversion_711/vivado.log
+# Journal file: C:/Users/user/Downloads/Final/Workingversion_711\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Downloads/Final/Workingversion_711/Workingversion_711.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/user/Downloads/S3_17_LEE_KUAN_SUWEI_SHRESTHA_WANG_ZAIXI_XU_HUANGHAO_Archive_xpr/Workingversion_711' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+archive_project C:/Users/user/Downloads/Final/Working.xpr.zip -temp_dir C:/Users/user/Downloads/Final/Workingversion_711/.Xil/Vivado-41892-LAPTOP-Q67A39EE -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/user/Downloads/Final/Workingversion_711/.Xil/Vivado-41892-LAPTOP-Q67A39EE' for archiving project
+INFO: [Project 1-313] Project file moved from 'C:/Users/user/Downloads/S3_17_LEE_KUAN_SUWEI_SHRESTHA_WANG_ZAIXI_XU_HUANGHAO_Archive_xpr/Workingversion_711' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/user/Downloads/Final/Workingversion_711/.Xil/Vivado-41892-LAPTOP-Q67A39EE/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'blk_mem_gen_img_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'blk_mem_gen_const_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'blk_mem_gen_img_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'blk_mem_gen_const_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_const'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_const'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_img'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_img'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
